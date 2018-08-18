@@ -1,7 +1,11 @@
-#include<stdio.h>
+#include <iostream>
+using namespace std;
 
 int main(void){
-  printf("Helloworld\n");
+    int a = 10;
+    int b = 20;
+    int c = a + b;
 
-  return 0;
+    cout << c << endl;
+    return 0;
 }
